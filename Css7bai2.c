@@ -5,11 +5,11 @@ int main()
 	
 		for(int i = 1;i<=sizeof(n)/sizeof(int);i++){
 	printf(" Moi ban nhap phan tu thu %d ",i);
-	scanf("%d",&n[i]);}
+	scanf("%d",&n[i-1]);}
 	printf("Nhung mang vua nhap lan luot la\n");
 	for(int i=1;i<=sizeof(n)/sizeof(int);i++){
 		
-		printf("%d  ",n[i]);
+		printf("%d  ",n[i-1]);
 	}
 
 	
