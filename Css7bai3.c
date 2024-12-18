@@ -1,14 +1,26 @@
 #include<stdio.h>
 int main(){
-	int n[5]={0,1,2,3,4,5};
-	printf( "phan tu la so chan\n");
-			
+	int number[5]={7,0,5,0,1},check=0;
 	for(int i=0;i<5;i++){
-		if(n[i]%2==0){
-			printf( " %d",n[i]);
-			
+		if(number[i]%2==0){
+			check++;}
+		}if(check>0){
+		for(int i=0;i<5;i++){
+			if(number[i]%2==0){
+			printf("%d   ",number[i]);}
+			}
+		}else{
+			printf("Mang khong co so chan ");
+		}	
+		return 0;
 		}
 		
-	}
-	return 0;
-}
+		
+	
+	
+	
+	
+	
+
+
+
